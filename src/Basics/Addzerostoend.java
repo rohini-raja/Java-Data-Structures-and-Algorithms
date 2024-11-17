@@ -1,3 +1,5 @@
+package Basics;
+
 public class Addzerostoend {
     public static void main(String[] args) {
         int arr[] = {0,0,4,0,7};

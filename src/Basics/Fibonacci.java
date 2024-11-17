@@ -1,3 +1,5 @@
+package Basics;
+
 import java.util.Scanner;
 
 public class Fibonacci
@@ -6,7 +8,7 @@ public class Fibonacci
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number : ");
         int n = sc.nextInt();
-        System.out.print("Fibonacci series : ");
+        System.out.print("Basics.Fibonacci series : ");
         int prev = 0;
         int curr = 1;
         for (int i = 0; i < n; i++){

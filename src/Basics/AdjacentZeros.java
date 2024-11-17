@@ -1,6 +1,7 @@
+package Basics;
+
 import java.util.*;
 import java.lang.*;
-import java.io.*;
 
 public class AdjacentZeros {
     public static void main(String[] args) {
