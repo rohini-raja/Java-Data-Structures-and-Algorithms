@@ -1,9 +1,11 @@
 package ObjectOrientedProgramming.Inheritance;
-public class Box {
+public  class Box {
     double length;
     double width;
     double height;
-
+    static void greeting(){
+        System.out.println("Hey, im in box class");
+    }
     Box() {
         super();
         this.length = -1;

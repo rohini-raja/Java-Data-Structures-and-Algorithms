@@ -2,7 +2,7 @@ package ObjectOrientedProgramming.Inheritance;
 
 public class Main {
     public static void main(String[] args) {
-//        Box box1 = new Box(4.9, 6.9, 2.9);
+        Box box1 = new Box(4.9, 6.9, 2.9);
 //        Box box2 = new Box(4);
 //        Box box3 = new Box(box2);
 //        Box box4 = new Box(box1);
@@ -15,6 +15,9 @@ public class Main {
 //            System.out.println(boxWeight.height + " " + boxWeight.weight);
 //            System.out.println(boxWeight2.height + " " + boxWeight2.weight);
 
-        BoxPrice boxPrice = new BoxPrice();
+  //      BoxPrice boxPrice = new BoxPrice();
+        box1.greeting();
+        Box box2 = new BoxWeight();
+        box2.greeting();
     }
 }

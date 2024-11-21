@@ -11,6 +11,12 @@ public class BoxWeight extends Box{
         this.weight = other.weight;
     }
 
+   // @Override
+    static void greeting() {
+        System.out.println("Hello World!");
+        System.out.println("Hello World!");
+    }
+
     public BoxWeight(double length, double width, double height, double weight) {
         super(length, width, height);
         this.weight = weight;
