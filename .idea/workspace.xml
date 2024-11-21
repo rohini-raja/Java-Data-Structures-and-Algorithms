@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a111d1f-c9e4-4111-8dce-15c07904b0b5" name="Changes" comment="Moved to respective folders">
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Wrapperclass.java" afterDir="false" />
+    <list default="true" id="8a111d1f-c9e4-4111-8dce-15c07904b0b5" name="Changes" comment="OOPS Basics">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/Diffusebomb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/BoxPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/BoxWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/Polymorphism/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/Polymorphism/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/Polymorphism/Shapes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/Polymorphism/Sqaure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/Polymorphism/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Packages.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Introduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Introduction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,18 +33,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "rohini-raja"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rohini-raja&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/rohini-raja/Java-Data-Structures-and-Algorithms.git",
-    "accountId": "22c76fe5-95e2-43a9-af66-ee35788de4da"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rohini-raja/Java-Data-Structures-and-Algorithms.git&quot;,
+    &quot;accountId&quot;: &quot;22c76fe5-95e2-43a9-af66-ee35788de4da&quot;
   }
-}]]></component>
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-23/lib/src.zip!/java.base/java/lang/Integer.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-23/lib/src.zip!/java.base/java/lang/Object.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -47,6 +60,7 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
@@ -54,9 +68,11 @@
     "Application.AdjacentZeros.executor": "Run",
     "Application.Fibonacci.executor": "Run",
     "Application.Introduction.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.Movezerostoend.executor": "Debug",
     "Application.Movezerostoendbruteforce.executor": "Run",
     "Application.Narcisstic.executor": "Run",
+    "Application.ObjectOrientedProgramming.Inheritance.Polymorphism.Main.executor": "Run",
     "Application.Percentage.executor": "Debug",
     "Application.Primitives.executor": "Run",
     "Application.ReverseArray.executor": "Run",
@@ -89,13 +105,13 @@
       <recent name="ObjectOrientedProgramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Wrapperclass">
-    <configuration name="Movezerostoend" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.movezerotoend.Movezerostoend" />
+  <component name="RunManager" selected="Application.ObjectOrientedProgramming.Inheritance.Polymorphism.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectOrientedProgramming.Inheritance.Main" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.movezerotoend.*" />
+          <option name="PATTERN" value="ObjectOrientedProgramming.Inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Movezerostoendbruteforce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.movezerotoend.Movezerostoendbruteforce" />
+    <configuration name="ObjectOrientedProgramming.Inheritance.Polymorphism.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectOrientedProgramming.Inheritance.Polymorphism.Main" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.movezerotoend.*" />
+          <option name="PATTERN" value="ObjectOrientedProgramming.Inheritance.Polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectOrientedProgramming.Inheritance.Polymorphism.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Wrapperclass" />
         <item itemvalue="Application.movezerostoendoptimal" />
         <item itemvalue="Application.movezerostoendbetter" />
-        <item itemvalue="Application.Movezerostoendbruteforce" />
-        <item itemvalue="Application.Movezerostoend" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +200,8 @@
       <workItem from="1731499479187" duration="5766000" />
       <workItem from="1731515872978" duration="26376000" />
       <workItem from="1731759725013" duration="6662000" />
-      <workItem from="1731810133141" duration="9744000" />
+      <workItem from="1731810133141" duration="17663000" />
+      <workItem from="1732195957930" duration="6896000" />
     </task>
     <task id="LOCAL-00001" summary="Moved to respective folders">
       <option name="closed" value="true" />
@@ -194,15 +211,35 @@
       <option name="project" value="LOCAL" />
       <updated>1731823281379</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="OOPS Basics">
+      <option name="closed" value="true" />
+      <created>1731835507150</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731835507150</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Moved to respective folders" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved to respective folders" />
+    <MESSAGE value="OOPS Basics" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOPS Basics" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
