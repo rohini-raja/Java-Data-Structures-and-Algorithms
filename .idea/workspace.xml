@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a111d1f-c9e4-4111-8dce-15c07904b0b5" name="Changes" comment="OOPS Basics">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/Diffusebomb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/BoxPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/BoxWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/Polymorphism/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/Polymorphism/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/Polymorphism/Shapes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/Polymorphism/Sqaure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/Polymorphism/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Packages.java" afterDir="false" />
+    <list default="true" id="8a111d1f-c9e4-4111-8dce-15c07904b0b5" name="Changes" comment="OOPS - Inheritance and Polymorphism">
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/Polymorphism/Numbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/Polymorphism/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/Polymorphism/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +63,7 @@
     "Application.Movezerostoend.executor": "Debug",
     "Application.Movezerostoendbruteforce.executor": "Run",
     "Application.Narcisstic.executor": "Run",
+    "Application.Numbers.executor": "Run",
     "Application.ObjectOrientedProgramming.Inheritance.Polymorphism.Main.executor": "Run",
     "Application.Percentage.executor": "Debug",
     "Application.Primitives.executor": "Run",
@@ -105,13 +97,26 @@
       <recent name="ObjectOrientedProgramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ObjectOrientedProgramming.Inheritance.Polymorphism.Main">
+  <component name="RunManager" selected="Application.Numbers">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ObjectOrientedProgramming.Inheritance.Main" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ObjectOrientedProgramming.Inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectOrientedProgramming.Inheritance.Polymorphism.Numbers" />
+      <module name="JavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ObjectOrientedProgramming.Inheritance.Polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,19 +150,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="movezerostoendbetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.movezerotoend.movezerostoendbetter" />
-      <module name="JavaLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.movezerotoend.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="movezerostoendoptimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.movezerotoend.movezerostoendoptimal" />
       <module name="JavaLearning" />
@@ -173,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Numbers" />
         <item itemvalue="Application.ObjectOrientedProgramming.Inheritance.Polymorphism.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Wrapperclass" />
         <item itemvalue="Application.movezerostoendoptimal" />
-        <item itemvalue="Application.movezerostoendbetter" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +193,7 @@
       <workItem from="1731515872978" duration="26376000" />
       <workItem from="1731759725013" duration="6662000" />
       <workItem from="1731810133141" duration="17663000" />
-      <workItem from="1732195957930" duration="6896000" />
+      <workItem from="1732195957930" duration="9024000" />
     </task>
     <task id="LOCAL-00001" summary="Moved to respective folders">
       <option name="closed" value="true" />
@@ -219,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731835507150</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="OOPS - Inheritance and Polymorphism">
+      <option name="closed" value="true" />
+      <created>1732204002245</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732204002247</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +239,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Moved to respective folders" />
     <MESSAGE value="OOPS Basics" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOPS Basics" />
+    <MESSAGE value="OOPS - Inheritance and Polymorphism" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOPS - Inheritance and Polymorphism" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
