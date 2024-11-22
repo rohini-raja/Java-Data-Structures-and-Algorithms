@@ -1,0 +1,6 @@
+Object
+ - Throwable
+         - Exceptions
+                - Checked (Compile time) eg - file not found exception
+                - Unchecked (Run time) - only knows when the program is running
+         - Errors
