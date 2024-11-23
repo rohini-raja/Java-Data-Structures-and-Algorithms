@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a111d1f-c9e4-4111-8dce-15c07904b0b5" name="Changes" comment="Linked List Implementation">
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/DoublyLL/DLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/DoublyLL/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Linkedlist/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Linkedlist/SingleLL/LL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Linkedlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Linkedlist/SingleLL/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linkedlist/DoublyLL/DLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Linkedlist/DoublyLL/DLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linkedlist/DoublyLL/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Linkedlist/DoublyLL/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +70,7 @@
     "Application.Introduction.executor": "Run",
     "Application.LL.executor": "Run",
     "Application.LambdaFunctions.executor": "Run",
+    "Application.Linkedlist.DoublyLL.Main.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Movezerostoend.executor": "Debug",
     "Application.Movezerostoendbruteforce.executor": "Run",
@@ -122,7 +122,7 @@
       <recent name="C:\Users\rohin\IdeaProjects\JavaLearning\src\ObjectOrientedProgramming\Interfaces" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Linkedlist.DoublyLL.Main">
     <configuration name="Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ObjectOrientedProgramming.Enumexample.Basic" />
       <module name="JavaLearning" />
@@ -149,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Linkedlist.SingleLL.Main" />
+    <configuration name="Linkedlist.DoublyLL.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Linkedlist.DoublyLL.Main" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Linkedlist.SingleLL.*" />
+          <option name="PATTERN" value="Linkedlist.DoublyLL.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectOrientedProgramming.Cloning.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectOrientedProgramming.Cloning.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Linkedlist.SingleLL.Main" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectOrientedProgramming.Cloning.*" />
+          <option name="PATTERN" value="Linkedlist.SingleLL.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Linkedlist.DoublyLL.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.LL" />
         <item itemvalue="Application.Basic" />
         <item itemvalue="Application.ObjectOrientedProgramming.Collections.Main" />
-        <item itemvalue="Application.ObjectOrientedProgramming.Cloning.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +220,7 @@
       <workItem from="1731810133141" duration="17663000" />
       <workItem from="1732195957930" duration="9993000" />
       <workItem from="1732237575247" duration="26004000" />
-      <workItem from="1732344219082" duration="10390000" />
+      <workItem from="1732344219082" duration="13247000" />
     </task>
     <task id="LOCAL-00001" summary="Moved to respective folders">
       <option name="closed" value="true" />
@@ -603,6 +603,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Linkedlist/DoublyLL/Main.java</url>
+          <line>3</line>
+          <properties class="Linkedlist.DoublyLL.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
