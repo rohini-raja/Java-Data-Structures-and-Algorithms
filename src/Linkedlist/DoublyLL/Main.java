@@ -11,5 +11,7 @@ public class Main {
         dll.InsertLast(6);
         dll.InsertLast(7);
         dll.display();
+        dll.insertAfter(56,3);
+        dll.display();
     }
 }

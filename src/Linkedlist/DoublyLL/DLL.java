@@ -36,6 +36,34 @@ public class DLL {
         System.out.println("START");
     }
 
+    public void insertAfter(int val,int after){
+        //insert after a given index
+        Node p = find(after);
+        if(p == null){
+            System.out.println("Doesn't exist");
+            return;
+        }
+        Node newNode = new Node(val);
+        newNode.next = p.next;
+        p.next = newNode;
+        newNode.prev = p;
+        if(newNode.next!=null){
+            newNode.next.prev = newNode;
+        }
+        size+=1;
+    }
+
+    private Node find(int after) {
+        Node temp = head;
+        while(temp!=null){
+            if(temp.value==after){
+                return temp;
+            }
+            temp = temp.next;
+        }
+        return null; 
+    }
+
     public void InsertLast(int val){
         Node newNode = new Node(val);
         Node last = head;
