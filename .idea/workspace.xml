@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a111d1f-c9e4-4111-8dce-15c07904b0b5" name="Changes" comment="Linked List Implementation">
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/CircularLL/CLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/CircularLL/Main.java" afterDir="false" />
+    <list default="true" id="8a111d1f-c9e4-4111-8dce-15c07904b0b5" name="Changes" comment="Circular Linked List Implementation">
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Floor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch/Ceilingofagivennumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/Ceilingofagivennumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linkedlist/SingleLL/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Linkedlist/SingleLL/LL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +66,12 @@
     "Application.Addzerostoend.executor": "Run",
     "Application.AdjacentZeros.executor": "Run",
     "Application.Basic.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
+    "Application.Ceilingofagivennumber.executor": "Run",
     "Application.CustomArrayList.executor": "Run",
     "Application.Demo.executor": "Run",
     "Application.Fibonacci.executor": "Run",
+    "Application.Floor.executor": "Run",
     "Application.Introduction.executor": "Run",
     "Application.LL.executor": "Run",
     "Application.LambdaFunctions.executor": "Run",
@@ -123,13 +128,13 @@
       <recent name="C:\Users\rohin\IdeaProjects\JavaLearning\src\ObjectOrientedProgramming\Interfaces" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Linkedlist.CircularLL.Main">
-    <configuration name="Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectOrientedProgramming.Enumexample.Basic" />
+  <component name="RunManager" selected="Application.Floor">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.BinarySearch" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectOrientedProgramming.Enumexample.*" />
+          <option name="PATTERN" value="BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +142,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Linkedlist.SingleLL.LL" />
+    <configuration name="Ceilingofagivennumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.Ceilingofagivennumber" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Linkedlist.SingleLL.*" />
+          <option name="PATTERN" value="BinarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Floor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.Floor" />
+      <module name="JavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,26 +194,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Linkedlist.SingleLL.Main" />
-      <module name="JavaLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Linkedlist.SingleLL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Floor" />
+        <item itemvalue="Application.Ceilingofagivennumber" />
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.Linkedlist.CircularLL.Main" />
         <item itemvalue="Application.Linkedlist.DoublyLL.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.LL" />
-        <item itemvalue="Application.Basic" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +228,8 @@
       <workItem from="1732237575247" duration="26004000" />
       <workItem from="1732344219082" duration="13247000" />
       <workItem from="1732407477608" duration="2319000" />
-      <workItem from="1732451167878" duration="2625000" />
+      <workItem from="1732451167878" duration="3264000" />
+      <workItem from="1732500850836" duration="5642000" />
     </task>
     <task id="LOCAL-00001" summary="Moved to respective folders">
       <option name="closed" value="true" />
@@ -353,7 +359,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732379676161</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Circular Linked List Implementation">
+      <option name="closed" value="true" />
+      <created>1732453845613</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1732453845615</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +402,8 @@
     <MESSAGE value="OOPS - Exceptions,Shallow copy, deep copy" />
     <MESSAGE value="OOPS - Collections, Enums" />
     <MESSAGE value="Linked List Implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linked List Implementation" />
+    <MESSAGE value="Circular Linked List Implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Circular Linked List Implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -592,11 +607,6 @@
           <url>file://$PROJECT_DIR$/src/ObjectOrientedProgramming/Introduction.java</url>
           <line>61</line>
           <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Linkedlist/SingleLL/LL.java</url>
-          <line>90</line>
-          <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Linkedlist/DoublyLL/DLL.java</url>

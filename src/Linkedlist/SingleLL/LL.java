@@ -59,6 +59,10 @@ public class LL {
         temp.next = newNode;
         size+=1;
     }
+    // Insert using Recursion ,useful when given without size or tail variable
+    public void insertRec(int value, int index){
+
+    }
     public int deleteFirst(){
         int val = head.value;
         head = head.next;
