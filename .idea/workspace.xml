@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a111d1f-c9e4-4111-8dce-15c07904b0b5" name="Changes" comment="Circular Linked List Implementation">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/FirstandLastPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/FoundinMountainArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/PeakIndexinMountainArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/PositioninInfiniteSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/SmallestLetterLeetcodeQn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,68 +58,68 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Addzerostoend.executor": "Run",
-    "Application.AdjacentZeros.executor": "Run",
-    "Application.Basic.executor": "Run",
-    "Application.BinarySearch.executor": "Run",
-    "Application.Ceilingofagivennumber.executor": "Run",
-    "Application.CustomArrayList.executor": "Run",
-    "Application.Demo.executor": "Run",
-    "Application.Fibonacci.executor": "Run",
-    "Application.FirstandLastPosition.executor": "Run",
-    "Application.Floor.executor": "Debug",
-    "Application.Introduction.executor": "Run",
-    "Application.LL.executor": "Run",
-    "Application.LambdaFunctions.executor": "Run",
-    "Application.Linkedlist.CircularLL.Main.executor": "Run",
-    "Application.Linkedlist.DoublyLL.Main.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Movezerostoend.executor": "Debug",
-    "Application.Movezerostoendbruteforce.executor": "Run",
-    "Application.Narcisstic.executor": "Run",
-    "Application.Numbers.executor": "Run",
-    "Application.ObjectOrientedProgramming.Abstraction.Main.executor": "Run",
-    "Application.ObjectOrientedProgramming.Cloning.Main.executor": "Run",
-    "Application.ObjectOrientedProgramming.Collections.Main.executor": "Run",
-    "Application.ObjectOrientedProgramming.Exceptions.Main.executor": "Run",
-    "Application.ObjectOrientedProgramming.Inheritance.Polymorphism.Main.executor": "Run",
-    "Application.ObjectOrientedProgramming.Interfaces.ExtendDemo2.Main.executor": "Run",
-    "Application.ObjectOrientedProgramming.Interfaces.Main.executor": "Run",
-    "Application.ObjectOrientedProgramming.Interfaces.Nested.Main.executor": "Run",
-    "Application.Objectdemo.executor": "Run",
-    "Application.PeakIndexinMountainArray.executor": "Debug",
-    "Application.Percentage.executor": "Debug",
-    "Application.PositioninInfiniteSortedArray.executor": "Run",
-    "Application.Primitives.executor": "Run",
-    "Application.ReverseArray.executor": "Run",
-    "Application.Secondlargest.executor": "Run",
-    "Application.SmallestLetterLeetcodeQn.executor": "Run",
-    "Application.Sqauresum.executor": "Run",
-    "Application.Sumproduct.executor": "Debug",
-    "Application.Triangle.executor": "Debug",
-    "Application.Wrapperclass.executor": "Run",
-    "Application.movezerostoendbetter.executor": "Run",
-    "Application.movezerostoendoptimal.executor": "Run",
-    "Application.switchs.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/rohin/IdeaProjects/JavaLearning/src/ObjectOrientedProgramming/Interfaces/ExtendDemo2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/rohin/IdeaProjects/JavaLearning/src/Main.java",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Addzerostoend.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AdjacentZeros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Basic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ceilingofagivennumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CustomArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstandLastPosition.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Floor.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Introduction.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LL.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdaFunctions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Linkedlist.CircularLL.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Linkedlist.DoublyLL.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Movezerostoend.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Movezerostoendbruteforce.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Narcisstic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectOrientedProgramming.Abstraction.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectOrientedProgramming.Cloning.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectOrientedProgramming.Collections.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectOrientedProgramming.Exceptions.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectOrientedProgramming.Inheritance.Polymorphism.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectOrientedProgramming.Interfaces.ExtendDemo2.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectOrientedProgramming.Interfaces.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectOrientedProgramming.Interfaces.Nested.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Objectdemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PeakIndexinMountainArray.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Percentage.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.PositioninInfiniteSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Primitives.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Secondlargest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SmallestLetterLeetcodeQn.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sqauresum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sumproduct.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Triangle.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Wrapperclass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.movezerostoendbetter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.movezerostoendoptimal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.switchs.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rohin/IdeaProjects/JavaLearning/src/ObjectOrientedProgramming/Interfaces/ExtendDemo2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/rohin/IdeaProjects/JavaLearning/src/Main.java&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ObjectOrientedProgramming" />
@@ -236,7 +232,8 @@
       <workItem from="1732451167878" duration="3264000" />
       <workItem from="1732500850836" duration="6114000" />
       <workItem from="1732672062605" duration="3877000" />
-      <workItem from="1732689269768" duration="4294000" />
+      <workItem from="1732689269768" duration="5059000" />
+      <workItem from="1732720228486" duration="27000" />
     </task>
     <task id="LOCAL-00001" summary="Moved to respective folders">
       <option name="closed" value="true" />
